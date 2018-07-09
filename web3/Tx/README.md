@@ -25,10 +25,10 @@ web3.eth.defaultAccount = owner;
 
 // * tx info -----------------------------------------------------------------------
 
-const gasPrice = web3.utils.numberToHex(web3.utils.toWei('10', 'GWei'));
-const gasLimit = web3.utils.numberToHex(21000);
-const to 		= '0x48c6783ca981dcb86f9c7af2337a0c258127eb9e';
-const value 	= web3.utils.numberToHex(web3.utils.toWei('0.001', 'ether'));
+const gasPrice 	= web3.utils.numberToHex(web3.utils.toWei('10', 'GWei'));
+const gasLimit 	= web3.utils.numberToHex(21000);
+const to		= '0x48c6783ca981dcb86f9c7af2337a0c258127eb9e';
+const value		= web3.utils.numberToHex(web3.utils.toWei('0.001', 'ether'));
 const data		= ''
 
 prepareTx(gasPrice, gasLimit, to, value, data);
