@@ -230,4 +230,5 @@ module.exports = {
 
 ## Web3
 
-Go to **web3** folder
+* [Transaction](https://github.com/DenyStark/NodeJS-Tutorials/tree/master/web3/Tx)
+
